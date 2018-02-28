@@ -1,11 +1,48 @@
-.button {
-    width: 100px;
-    height: 100px;
+body{
+    background-image: url("../images/hypnotize.png");
+}
+button {
+    width: 75px;
+    height: 75px;
     border: solid black 2px;
 }
 
 .crystal{
-    width: 75px;
-    height: 75px;
-    background-color: white;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.829);
+}
+
+.instructions {
+    background-color: pink;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+#wins-losses {
+    background-color: orchid;
+    padding: 30px;
+    margin: 10px 
+}
+
+#totalScore{
+    background-color: greenyellow;
+    margin: 5px;
+    padding: 5px;
+}
+
+#userScore{
+    background-color: deeppink;
+    padding: 30px;
+    margin: 10px;
+    font-size: 20px;
+    line-height: 60px;
+}
+#random-number{
+    background-color: orange;
+    padding: 30px;
+    margin: 10px;
+    font-size: 20px;
+    line-height: 60px;
 }
